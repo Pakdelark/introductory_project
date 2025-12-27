@@ -15,3 +15,4 @@ agent = Agent(model=OpenRouter(id=id_model))
 if __name__ == "__main__":
     while question := input("User: ").strip():
         print("AI  :", agent.run(question).content)
+# старая версия, смотри новую с ключем по пути /home/xrix/Document/py_project/neiro_agent/telegramm...
